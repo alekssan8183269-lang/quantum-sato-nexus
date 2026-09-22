@@ -44,6 +44,8 @@ Transforms numeric strings (including database sequences from the OEIS) into p-a
 
 ## 📈 Analytical & Chaotic Verification Pipeline
 
+To guarantee that any newly discovered nonautonomous equation or integer trajectory belongs to the mathematical elite, the framework deploys consecutive verification blocks:
+
 ```mermaid
 graph TD
     %% Стили блоков (Мягкие хаотические тона)
@@ -106,5 +108,5 @@ python src/verification/aether_proof_core.py
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-To guarantee that any newly discovered nonautonomous equation or integer trajectory belongs to the mathematical elite, the framework deploys consecutive verification blocks:
+
 
